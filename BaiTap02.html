@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function avg(a,b,c){
+        let avr=(a+b+c)/3;
+        if(avr<5){
+            return "Không đạt!"
+        }else if(avr<8){
+            return "Đạt!"
+        }else if(avr>=8){
+            return "Tốt"
+        }
+    }
+    document.write(avg(7,9,6));
+</script>
+</body>
+</html>
